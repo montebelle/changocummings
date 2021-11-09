@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjaye Associates</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/firm-profile/style.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="../bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+               .carousel-item > img {
+    height: 0px
+    /* width: 100vw; */
+  }
+  .carousel-control-next{
+      display: none!important;
+  }
+  #works{
+      padding-top: 50px;
+  }
+  .li-search{
+        width: 0;
+        overflow: hidden;
+        margin-top: 10px;
+      
+      }
+        .search-add{
+    width: 500px;
+    transition: .5s;
+     }
+    </style>
+  </head>
+  <body style="background-color: black;">
+    <!-- header start -->
+    <header id="header">
+      <div class="container-fluid p-0">
+  
+        <div class="slider">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+  
+              <div style="position: relative;" class="carousel-item active">
+         
+                <img
+                  src="../Images/who-we-are/FIRM-PROFILE.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/Who-We-Are-Thumbnails.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/NEWS.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block ">
+                  <h3>Mole House</h3>
+                  <p>London, UK, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/adjaye-b-667x1000.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/WORKS-2.jpg"
+                  class="d-block w-100"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/WORKS-2.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/FIRM-PROFILE.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Featured section -->
+    <section style="padding-top: 100px;" id="firm-profile">
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-kg-6 col-md-6 col-12">
+                <div class="firm-img pt-2">
+                  <img
+                    src="../Images/firm-profile/map-1000x580 (1).png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6 col-kg-6 col-md-6 col-12">
+                <div class="firm-decs">
+                  <h1>Firm Profile</h1>
+                  <p class="fs-4">
+                    " If you understand that architecture is a social art form, it
+                    requires the input of the citizen to allow great architecture
+                    to happen. It comes out of being engaged culturally and
+                    listening. I always say, listen to the energy of the
+                    community, because that tells you where the project should
+                    go."
+                    <small class="fs-6"> - David Adjaye</small>
+                  </p>
+                  <p class="fs-5">
+                    Since establishing Adjaye Associates in 2000, Sir David Adjaye
+                    OBE has crafted a global team that is multicultural and
+                    stimulated by the broadest possible cultural discourse. The
+                    practice has studios in Accra, London, and New York with work
+                    spanning the globe. Adjaye Associates’ most well-known
+                    commission to date is the Smithsonian National Museum of
+                    African American History and Culture (NMAAHC), opened in 2016
+                    on the National Mall in Washington DC on the National Mall in
+                    Washington, D.C. and was named “Cultural Event of the Year” by
+                    the New York Times.
+                  </p>
+                  <p class="fs-5">
+                    In addition to the National Museum of African American History
+                    & Culture, selected completed works include: 1199 SEIU United
+                    Healthcare Workers East, the new Public Member Spaces for the
+                    new headquarters for the labor union; Ruby City, a new
+                    contemporary art center in San Antonio, Texas; The Webster in
+                    Los Angeles, a new flagship retail space for the luxury
+                    multi-brand retailer; Sugar Hill Mixed-Use Development and
+                    Children’s Museum of Art and Storytelling in Harlem, New York;
+                    the Aïshti Foundation Arts and Shopping Complex in Beirut
+                    Lebanon; two neighborhood libraries in Washington, DC; the
+                    Moscow School of Management SKOLKOVO in Russia; the Hugh
+                    Masekela Memorial Pavilion in Johannesburg, South Africa; the
+                    Museum of Contemporary Art Denver in Colorado; the Alara
+                    Concept Store in Lagos; The Nobel Peace Centre in Oslo,
+                    Norway; and the Idea Stores– two pioneering community
+                    libraries in London’s Tower Hamlets.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Related">
+        <div class="container">
+          <div class="row">
+            <div class="root">
+              <div class="title">
+                <h3>Related</h3>
+                <hr />
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+               <a href="./firm-profile.html">
+                <div class="root_inner">
+                  <div class="inner_img py-2">
+                    <img
+                      src="../Images/firm-profile/FIRM-PROFILE.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+               </a>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                  <a href="./news.html">
+                    <div class="root_inner  ">
+                      <div class="inner_img py-2">
+                        <img src="../Images/firm-profile/NEWS.jpg" class="img-fluid" alt="" />
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                  <a href="./works.html">
+                    <div class="root_inner ">
+                      <div class="inner_img py-2">
+                        <img
+                          src="../Images/firm-profile/WORKS-2.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                  </div>
+                  <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                 <a href="./approach.html">
+                  <div class="root_inner">
+                    <div class="inner_img py-2">
+                      <img
+                        src="../Images/firm-profile/Who-We-Are-Thumbnails.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                 </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr style="margin-top: 20px;">
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+ 
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Studio</h4>
+              <p>
+                Accra, Ghana <br />
+                London, United Kingdom <br />
+                New York, United States
+              </p>
+              <div class="socail">
+                <ul>
+                  <li>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Careers</h4>
+              <p>
+                <a href="#"> ghcareers@adjaye.com </a><br />
+                <a href="#">ukcareers@adjaye.com </a><br />
+                <a href="#"> uscareers@adjaye.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Press</h4>
+              <p>
+                <a href="#">press@adjaye.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">New Business</h4>
+              <p>
+                <a href="#">newbusinessafrica@adjaye.com </a><br />
+                <a href="#">newbusinesseurope@adjaye.com</a> <br />
+                <a href="#">newbusinessamericas@adjaye.com</a> <br />
+              </p>
+              <p>Copyright &copy; 2021 Adjaye Associates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+                           <!-- navbar -->
+                           <div style="position: absolute;top:30px;width: 93%;" class="container-nav navber ">
+                            <div  class="row navber-row">
+                              <div class="col-3">
+                               <a style="text-decoration: none;" href="../index.html"> <span class="logo">Adjaye Associates</span></a>
+                              </div>
+                              <div class="col-9">
+                                <nav>
+                                  <ul>
+                                    
+                  
+                  
+                  
+                                    <li  style="position: relative;" class="li-who li-sm search-btn1-con"><a href="#">Who We Are</a>
+                                      
+                                        <div class="who-box  text-center ">
+                                <div class="hover">
+                                  <ul class="py-2">
+                                    <div class="sign"></div>
+                                    
+            
+            
+            
+        
+              
+              <li ><a href="./who-we-are.html">Sir David Adjaye</a></li>
+              <li><a href="./approach.html">Approach</a></li>
+              <li><a href="./firm-profile.html">Firm Profile</a></li>
+              <li><a href="./awards.html">Awards</a></li>
+              <li><a href="../page/leadership.html"> Leadership</a></li>
+                   </ul>
+                                </div>
+                                        </div></li>
+                                  
+                                   
+                                    <li class="li-sm search-btn1-con"><a href="./works.html">Works</a></li>
+                                    <li class="li-sm search-btn1-con"><a href="./news.html">News</a></li>
+                                    <li class="li-sm search-btn1-con"><a href="./contract.html">Contact Us</a></li>
+            <li class="li-sm  li-search"><input  class="search-input" required="1" type=""></li>
+                                
+                                    
+                                    <li class=""><a class="search-btn1" href="#"><i class="bi bi-search"></i></a></li>
+                                 
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- nav small device -->
+                          <div style="position: absolute;top: 10px;width: 95%;" class="nav-sm ">
+                            <div class="nav-sm-container">
+                              <div class="row ">
+                                <div class="col-7">
+                                 
+                                  <a href="../index.html" style="text-decoration: none;">
+                                    <span class="mt-2 d-block text-white" style="font-size: 22px;font-family: zen;margin-left: 5%;" class="logo">Adjaye Associates</span>
+                                  </a>                  
+                                              </div>
+                                <div class="col-5 text-end">
+                                 <div>
+                                </span> <a href="#" class="manu-toggler"><img  style="margin-right: 5%;" src="../icon/icons8-menu-48 (1).png" alt=""></a>
+                                 </div>
+                                </div>
+                                <!-- nav -->
+                                <div class="nav-sm- nav-sm-2 " style="margin-left: 2%;" class="col-12">
+                                <div style="background-color: black;" class="container py-4">
+                                 
+                                 <div class="div-search text-end">
+                                  <input required="1" class="input-sm"  type="text">
+                                  <a class="search-btn-sm" style="text-decoration: none;" href="#"><span style="color: white;font-size: 18px;margin-top: 5px;" class="d-inline-block"> <i class="bi bi-search"></i></span></a>
+                                                                </div>
+                                  <ul>
+                                    <li class="mt-2 li-click"><a href="#">Who new are &nbsp;<i class="bi bi-caret-down-fill"></i></a></li>
+                                    <li class="li-show"><a href="./who-we-are.html">Sir David Adjaye</a></li>
+                                    <li class="li-show"><a href="./approach.html">Approach</a></li>
+                                    <li class="li-show"><a href="./firm-profile.html">Firm Profile</a></li>
+                                    <li class="li-show"><a href="./awards.html">Awards</a></li>
+                                    <li class="li-show"><a href="../page/leadership.html"> Leadership</a></li>
+                                    <li class="li-sm"><a href="./works.html">Works</a></li>
+                                    <li class="li-sm"><a href="../page/news.html">News</a></li>
+                                    <li class="li-sm"><a href="./contract.html">Contact Us</a></li>
+                                  </ul>
+                                  <div class="socail">
+                                    <ul>
+                                      <li>
+                                        <a href="#"><i class="bi bi-instagram"></i></a>
+                                      </li>
+                    
+                                      <li>
+                                        <a href="#"><i class="bi bi-facebook"></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"><i class="bi bi-twitter"></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- navend -->
+                  
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

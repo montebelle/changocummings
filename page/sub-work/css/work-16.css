@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Mukta:wght@600&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Oswald:wght@200;300&family=Zen+Kurenaido&display=swap");
+
+p {
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #ffffffe5;
+  font-size: 18px;
+}
+.hero-section {
+  background-image: url(../img/16.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+i,
+small {
+  cursor: pointer;
+}
+.wrapper {
+  position: absolute;
+  top: 80% !important;
+  left: 10%;
+}
+.root h1 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section {
+    height: 80vh;
+  }
+}
+.root {
+  padding: 5rem 0rem;
+}
+.inner_img > img {
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
+}
+.inner_img > img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 600px) {
+  .inner_img > img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #wrap-1 {
+    padding-top: 7rem !important;
+  }
+}
+.wrap-2 {
+  text-align: justify;
+}

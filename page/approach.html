@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjaye Associates</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/approach/style.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="../bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+               .carousel-item > img {
+    height: 0px
+    /* width: 100vw; */
+  }
+  .m-btn{
+ display: none;
+  }
+  
+  .plus-btn-add{
+    display: inline-block!important;
+  }
+  .m-btn-add{
+    display: inline-block;
+  }
+  .m-btn-remove{
+    display: none!important;
+  }
+  .li-search{
+        width: 0;
+        overflow: hidden;
+        margin-top: 10px;
+      
+      }
+        .search-add{
+    width: 500px;
+    transition: .5s;
+     }
+  .carousel-control-next{
+      display: none!important;
+  }
+  #works{
+      padding-top: 50px;
+  }
+  .plus-btn-store{
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+  }
+  .store-1{
+    font-size: 16px;
+  }
+  .plus-btn-store-add{
+height: auto;
+  }
+  .roots span{
+    font-family: "Zen Kurenaido", sans-serif;
+  }
+
+    </style>
+  </head>
+  <body style="background-color: black;">
+    <!-- header start -->
+    <header id="header">
+      <div class="container-fluid p-0">
+  
+        <div class="slider">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+  
+              <div style="position: relative;" class="carousel-item active">
+         
+                <img
+                  src="../Images/who-we-are/FIRM-PROFILE.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/Who-We-Are-Thumbnails.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/NEWS.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block ">
+                  <h3>Mole House</h3>
+                  <p>London, UK, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/adjaye-b-667x1000.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/WORKS-2.jpg"
+                  class="d-block w-100"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/WORKS-2.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>130 William</h3>
+                  <p>Manhattan, New York, USA, Current</p>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../Images/who-we-are/FIRM-PROFILE.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt=""
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Ruby City</h3>
+                  <p>San Antonio, Texas, USA, 2019</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Featured section -->
+    <section style="padding-top: 100px;" id="firm-profile">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-kg-6 col-md-6 col-12">
+              <div class="firm-decs">
+                <h1>Approach</h1>
+                <p class="fs-4">
+                  " My approach is to design from the inside out and my
+                  buildings have been said to ‘unfold cinematically’. The
+                  starting point is to gain an understanding of a client’s needs
+                  and the way in which a sequence of spaces will be used." -
+                  David Adjaye
+                  <small class="fs-6"> - David Adjaye</small>
+                </p>
+                <p class="fs-6">
+                  Adjaye Associates strives for an architecture that enriches
+                  daily life and meets the diverse needs of the communities we
+                  serve from the intimate to the expansive.
+                </p>
+                <p class="fs-6">
+                  We believe architecture presents opportunities for
+                  transformation—materially, conceptually, sociologically—and
+                  can act as a catalytic mechanism for bridging and creating
+                  relationships between the human body, society and the world.
+                </p>
+                <p class="fs-6">
+                  As a multidisciplinary studio, research is indispensable to
+                  our process and we undertake the responsibility of
+                  articulating narratives through understanding the past in
+                  order to create a vibrant, socially and environmentally
+                  responsible future.
+                </p>
+                <p class="fs-6">
+                  Notions of place-making, identity, memory and meaning, are
+                  central to our design process as we aim to create structures
+                  conducive to positive forms of human transformation.
+                </p>
+              </div>
+              <div class="roots">
+                <strong  class="plus-btn" style="cursor: pointer;"><i class="bi bi-plus plus-btn1"></i>
+                 
+                </strong>
+                <span style="font-size:larger;"> Materiality & Light </span>
+                
+                <br />
+                <div class="plus-btn-store">
+                  <small class="store-1">Through an investigation into space, direction, and artistic malleability of <br> materials,
+                     we utilize light as an actant in the design process. Whether it’s <br> earthen materials that articulate a
+                      façade, or textures that allow entrance to light, <br> we attempt a cohesive relationship between
+                       both materiality and light that emphasizes 
+                    intricacies and accentuates the experience and meaning of our <br> structures.</small>
+                </div>
+                
+                <strong class="plus-btn" style="cursor: pointer;"><i class="bi bi-plus"></i></strong>
+
+                <span style="font-size:larger;"> Artist Collaborations </span>
+                <br />
+                <div class="plus-btn-store">
+                  <small class="store-1">
+                    The collaboration between art and architecture is central to the studio’s <br> practice. As two
+                     seemingly distinctive forces, the collective elements between <br> the logics
+                     of geometry and material flows allows for new configurations and <br> typologies to evolve.
+                     <br>
+                     <br>
+
+                     Actualized within the level of the spatial, somatic, and sonic, David’s <br> collaborations with
+                      artists, curators and cultural organizations in the <br> production of exhibitions, installations, 
+                     public buildings and pavilions brings a <br> new dimension to the experience.
+                  </small>
+                </div>
+                <strong class="plus-btn"  style="cursor: pointer;"><i class="bi bi-plus"></i></strong>
+
+                <span style="font-size:larger;"> Working Across Multiple Scales </span>
+                <br />
+                <div class="plus-btn-store">
+                  <small class="store-1">
+                    At Adjaye Associates we believe in design that is responsive to and symbiotic with <br>
+                    the environment which entails a type of listening that is specific to culture and <br>climate.
+                  <br>
+                  <br>
+                  Our studio anticipates a social futurity that sees the built environment as successful <br>
+
+                  only if it is equitable and in dialogue with its physical and sociocultural context. In <br>
+                  order to realize this vision of a social futurity, Adjaye Associates’ practice of <br>
+                  sustainable architecture transcends just bio-material sourcing or low consumptive <br>
+                  construction processes. Instead, our approach merges ecology with diversity and <br>
+                  inclusion to create holistically sustainable spaces — not just in terms of their <br>
+                  durability, but their usability and maintained relevance. <br>
+
+                  </small>
+                </div>
+                <strong class="plus-btn"  style="cursor: pointer;"><i class="bi bi-plus"></i></strong>
+
+                <span style="font-size:larger;"> Community Engagement </span>
+                <br />
+                <div class="plus-btn-store">
+                  <small class="store-1 store-1-3">
+                    We work at many different scales—from products, furniture and interiors to <br>
+                    landscaping and master planning—all of which provides a dynamic reinterpretation <br>
+                    of space and materials that allow entrance into a world of forms. This multi-scalar <br>
+                    flow informs our body of work from intimate interior spaces of private residences, <br>
+                    andscaped waterfronts, educational campuses to urban quarters, each is designed <br>
+                    with an experimentation and ability to navigate form. <br>
+                    <br> <br>
+                    David Adjaye’s vision is one that promotes multiple interpretations of the civic <br>
+                    experience through reimagining the interventions of master planning and landscape. <br>
+                    The approach to master planning is driven by the human-scaled complexities of <br>
+                    urban living in parallel with the driving forces of what is considered in a landscape— <br>
+                    topography, geography and climate. <br>
+                    <br> <br>
+                    The practice’s ability to work across scale from the micro to the macro is key to the <br>
+                    methodology of urban development. We believe that urban environments can only <br>
+                    thrive if they are designed on every level to respond to the future, expand on civic <br>
+                    narratives, and celebrate difference. <hr>
+                  </small>
+                </div>
+                <strong class="plus-btn"  style="cursor: pointer;"><i class="bi bi-plus"></i></strong>
+
+                <span style="font-size:larger;"> Research </span>
+                <br />
+                <div class="plus-btn-store">
+                  <small class="store-1">Through an investigation into space, direction, and artistic malleability of <br> materials,
+                     we utilize light as an actant in the design process. Whether it’s <br> earthen materials that articulate a
+                      façade, or textures that allow entrance to light, <br> we attempt a cohesive relationship between
+                       both materiality and light that emphasizes 
+                    intricacies and accentuates the experience and meaning of our <br> structures.</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
+              <div class="w-100">
+                <img class="img-map" style="display: block;" src="../Images/approach/map-1000x580 (1).png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Related">
+      <div class="container">
+        <div class="row">
+          <div class="root">
+            <div class="title">
+              <h3>Related</h3>
+              <hr />
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                <a href="./firm-profile.html">
+                  <div class="root_inner">
+                    <div class="inner_img py-2">
+                      <img
+                        src="../Images/approach/FIRM-PROFILE.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                <a href="./news.html">
+                  <div class="root_inner">
+                    <div class="inner_img">
+                      <img src="../Images/approach/NEWS.jpg" class="img-fluid" alt="" />
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                  <div class="root_inner">
+                    <div class="inner_img py-2">
+                      <img
+                        src="../Images/approach/WORKS-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                <a href="./approach.html">
+                  <div class="root_inner">
+                    <div class="inner_img py-2">
+                      <img
+                        src="../Images/approach/Who-We-Are-Thumbnails.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <hr style="margin-top: 20px;">
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+ 
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Studio</h4>
+              <p>
+                Accra, Ghana <br />
+                London, United Kingdom <br />
+                New York, United States
+              </p>
+              <div class="socail">
+                <ul>
+                  <li>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Careers</h4>
+              <p>
+                <a href="#"> ghcareers@adjaye.com </a><br />
+                <a href="#">ukcareers@adjaye.com </a><br />
+                <a href="#"> uscareers@adjaye.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">Press</h4>
+              <p>
+                <a href="#">press@adjaye.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-item">
+              <h4 class="footer-title">New Business</h4>
+              <p>
+                <a href="#">newbusinessafrica@adjaye.com </a><br />
+                <a href="#">newbusinesseurope@adjaye.com</a> <br />
+                <a href="#">newbusinessamericas@adjaye.com</a> <br />
+              </p>
+              <p>Copyright &copy; 2021 Adjaye Associates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+                           <!-- navbar -->
+                           <div style="position: absolute;top:30px;width: 93%;" class="container-nav navber ">
+                            <div  class="row navber-row">
+                              <div class="col-3">
+                               <a style="text-decoration: none;" href="../index.html"> <span class="logo">Adjaye Associates</span></a>
+                              </div>
+                              <div class="col-9">
+                                <nav>
+                                  <ul>
+                                    
+                  
+                  
+                  
+                                    <li  style="position: relative;" class="li-who li-sm search-btn1-con"><a href="#">Who We Are</a>
+                                      
+                                        <div class="who-box  text-center ">
+                                <div class="hover">
+                                  <ul class="py-2">
+                                    <div class="sign"></div>
+                                    
+            
+            
+            
+        
+              
+              <li ><a href="./who-we-are.html">Sir David Adjaye</a></li>
+              <li><a href="./approach.html">Approach</a></li>
+              <li><a href="./firm-profile.html">Firm Profile</a></li>
+              <li><a href="./awards.html">Awards</a></li>
+              <li><a href="../page/leadership.html"> Leadership</a></li>
+                   </ul>
+                                </div>
+                                        </div></li>
+                                  
+                                   
+                                    <li class="li-sm search-btn1-con"><a href="./works.html">Works</a></li>
+                                    <li class="li-sm search-btn1-con"><a href="./news.html">News</a></li>
+                                    <li class="li-sm search-btn1-con"><a href="./contract.html">Contact Us</a></li>
+                                
+            <li class="li-sm  li-search"><input placeholder="Search the site for..." class="search-input" required="1" type=""></li>
+                                    
+                                    <li class=""><a class="search-btn1" href="#"><i class="bi bi-search"></i></a></li>
+                                 
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- nav small device -->
+                          <div style="position: absolute;top: 10px;width: 95%;" class="nav-sm ">
+                            <div class="nav-sm-container">
+                              <div class="row ">
+                                <div class="col-7">
+                                 
+                                  <a href="../index.html" style="text-decoration: none;">
+                                    <span class="mt-2 d-block text-white" style="font-size: 22px;font-family: zen;margin-left: 5%;" class="logo">Adjaye Associates</span>
+                                  </a>                  
+                                              </div>
+                                <div class="col-5 text-end">
+                                 <div>
+                                </span> <a href="#" class="manu-toggler"><img  style="margin-right: 5%;" src="../icon/icons8-menu-48 (1).png" alt=""></a>
+                                 </div>
+                                </div>
+                                <!-- nav -->
+                                <div class="nav-sm- nav-sm-2 " style="margin-left: 2%;" class="col-12">
+                                <div style="background-color: black;" class="container py-4">
+                                 
+                                 <div class="div-search text-end">
+                                  <input required="1" class="input-sm"  type="text">
+                                  <a class="search-btn-sm" style="text-decoration: none;" href="#"><span style="color: white;font-size: 18px;margin-top: 5px;" class="d-inline-block"> <i class="bi bi-search"></i></span></a>
+                                                                </div>
+                                  <ul>
+                                    <li class="mt-2 li-click"><a href="#">Who new are &nbsp;<i class="bi bi-caret-down-fill"></i></a></li>
+                                    <li class="li-show"><a href="./who-we-are.html">Sir David Adjaye</a></li>
+                                    <li class="li-show"><a href="./approach.html">Approach</a></li>
+                                    <li class="li-show"><a href="#">Firm Profile</a></li>
+                                    <li class="li-show"><a href="./awards.html">Awards</a></li>
+                                    <li class="li-show"><a href="../page/leadership.html"> Leadership</a></li>
+                                    <li class="li-sm"><a href="./firm-profile.html">Works</a></li>
+                                    <li class="li-sm"><a href="../page/news.html">News</a></li>
+                                    <li class="li-sm"><a href="./contract.html">Contact Us</a></li>
+                                  </ul>
+                                  <div class="socail">
+                                    <ul>
+                                      <li>
+                                        <a href="#"><i class="bi bi-instagram"></i></a>
+                                      </li>
+                    
+                                      <li>
+                                        <a href="#"><i class="bi bi-facebook"></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"><i class="bi bi-twitter"></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- navend -->
+                  
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/approach.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

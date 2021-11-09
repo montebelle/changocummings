@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#leaderShip {
+  background: #000;
+  color: #fff;
+}
+.top_part {
+  padding: 10rem 0rem;
+  width: 100%;
+  height: 100%;
+}
+.leader_ship_ceo {
+  background-image: url(../../Images/leadership/David-Ajdaye-Rolex-Portrait-2-1000x665.jpg);
+  width: 100%;
+  height: 23rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 1;
+  cursor: pointer;
+}
+.info {
+  text-align: center;
+  position: absolute;
+  left: 27%;
+  top: 56%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.leader_ship_ceo:hover {
+  opacity: 0.5;
+}
+.leader_ship_ceo:hover .info {
+  opacity: 1;
+  visibility: visible;
+}
+.title {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: "Zen Kurenaido", sans-serif!important;
+  font-style: unset!important;
+  
+}
+.pera {
+  color: lightgray;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1.5rem;
+}
+.member {
+  background: #111111;
+}
+.member_img > img {
+  width: 100%;
+  min-height: 24rem;
+  object-fit: cover;
+  opacity: 1;
+}
+.card_inner {
+  position: absolute;
+  top: 54%;
+  left: 15%;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.card_inner > h3 {
+  font-size: 1.6rem;
+  color: #fcfcfc;
+  font-family: aria;
+}
+.card_inner > p {
+  font-family: Arial;
+  color: lightgray;
+}
+.wrapper {
+  margin: 44px 0px;
+}
+.wrapper:hover .member_img {
+  opacity: 0.4;
+}
+.wrapper:hover .card_inner {
+  overflow: visible !important;
+  opacity: 1 !important;
+}
+/* ====== Related ========== */
+#Related {
+  background: #000;
+  color: #fff;
+}
+.root {
+  padding: 5rem 0rem;
+}
+/* ==== footer ==== */
+footer {
+  background: #000;
+  padding: 2rem;
+  color: #fff;
+}
+.socail ul {
+  list-style: none;
+  margin-left: -47px;
+}
+.socail ul li {
+  display: inline-block;
+  padding: 5px 7px;
+}
+.socail ul li a i {
+  font-size: 24px;
+  color: #fcfcfc;
+  transition: 0.5s;
+}
+.socail ul li a i:hover {
+  color: gray;
+}
+.footer-item p {
+  color: gray;
+  text-align: justify;
+}
+.footer-item p > a {
+  color: gray;
+  text-decoration: none;
+}
+.footer-item p > a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Mukta:wght@600&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Zen+Kurenaido&display=swap");
+#firm-profile {
+  background: #000;
+  color: #fff;
+}
+.wrapper {
+  padding: 5rem 0rem;
+}
+.fs-5 {
+  font-size: 13px !important;
+  color: lightgray !important;
+  text-align: justify !important;
+}
+.roots i {
+  font-size: 28px;
+}
+.roots a {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Zen Kurenaido", sans-serif;
+  text-decoration: none;
+}
+/* ====== Related ========== */
+#Related {
+  background: #000;
+  color: #fff;
+}
+.root {
+  padding: 5rem 0rem;
+}
+.inner_img > img {
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
+}
+.inner_img > img:hover {
+  filter: grayscale(0);
+}
+@media screen and (max-width: 600px) {
+  .inner_img > img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+/* ==== footer ==== */
+footer {
+  background: #000;
+  padding: 2rem;
+  color: #fff;
+}
+.socail ul {
+  list-style: none;
+  margin-left: -47px;
+}
+.socail ul li {
+  display: inline-block;
+  padding: 5px 7px;
+}
+.socail ul li a i {
+  font-size: 24px;
+  color: #fcfcfc;
+  transition: 0.5s;
+}
+.socail ul li a i:hover {
+  color: gray;
+}
+.footer-item p {
+  color: gray;
+  text-align: justify;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 18px;
+}
+.footer-item p > a {
+  color: gray;
+  text-decoration: none;
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 20px;
+}
+.footer-item p > a:hover {
+  text-decoration: underline;
+}
